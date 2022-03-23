@@ -12,12 +12,22 @@ main {
   padding: 20px;
 }
 
-.header {
+header {
   background-color: green;
+  padding: 10px;
+  background-image: url('images/header-BG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.footer {
+footer {
   flex-shrink: 0; /* 0 to prevent browsers from shrinking the content smaller than it's default minimum size */
   background-color: green;
   padding: 10px;
+}
+
+.img-profile {
+  border-radius: 35%;
+  max-width: 300px;
 }
