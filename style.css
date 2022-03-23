@@ -1,5 +1,23 @@
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto; /* flex: 1 to make main content fill all the space before footer, and 0 to prevent browsers from shrinking the content smaller than it's default minimum size */
+  padding: 20px;
+}
+
+.header {
+  background-color: green;
+}
+
+.footer {
+  flex-shrink: 0; /* 0 to prevent browsers from shrinking the content smaller than it's default minimum size */
+  background-color: green;
+  padding: 10px;
 }
