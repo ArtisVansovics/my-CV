@@ -15,7 +15,7 @@ main {
 header {
   background-color: green;
   padding: 10px;
-  background-image: url('images/header-BG.jpg');
+  background-image: url('images/header-BG-02.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -28,6 +28,28 @@ footer {
 }
 
 .img-profile {
-  border-radius: 35%;
+  border-radius: 0%;
+  margin: 10px;
   max-width: 300px;
+  box-shadow: 
+    15px 10px 0px rgb(7, 192, 69),
+    15px -10px 0px rgb(7, 192, 69), 
+    30px -20px 0px rgb(216, 20, 6),
+    30px 10px 0px rgb(216, 20, 6);
+}
+
+.navbar {
+  background-color: green;
+}
+
+#title {
+  color: white;
+  text-shadow: 2px 2px black;
+  
+}
+
+#header-text {
+  color: white;
+  text-shadow: 2px 2px black;
+  background-color: rgba(0, 255, 255, 0.322);
 }
