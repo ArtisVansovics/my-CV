@@ -10,10 +10,11 @@ body {
 main {
   flex: 1 0 auto; /* flex: 1 to make main content fill all the space before footer, and 0 to prevent browsers from shrinking the content smaller than it's default minimum size */
   padding: 20px;
+  background-color: #F2EFBD;
 }
 
 header {
-  background-color: green;
+  background-color: #D5D96C;
   padding: 10px;
   background-image: url('images/header-BG-02.jpg');
   background-repeat: no-repeat;
@@ -23,8 +24,16 @@ header {
 
 footer {
   flex-shrink: 0; /* 0 to prevent browsers from shrinking the content smaller than it's default minimum size */
-  background-color: green;
+  background-color: #D5D96C;
   padding: 10px;
+}
+
+h2 {
+  color: #F2A30F;
+}
+
+p {
+  color: #8C030E;
 }
 
 .img-profile {
@@ -32,18 +41,21 @@ footer {
   margin: 10px;
   max-width: 300px;
   box-shadow: 
-    15px 10px 0px rgb(7, 192, 69),
-    15px -10px 0px rgb(7, 192, 69), 
-    30px -20px 0px rgb(216, 20, 6),
-    30px 10px 0px rgb(216, 20, 6);
+    15px 10px 0px #F2A30F,
+    15px -10px 0px #F2A30F, 
+    30px -20px 0px #8C030E,
+    30px 0px 0px #8C030E;
 }
 
 .navbar {
-  background-color: green;
+  background-color: #D5D96C;
+  color: #F2A30F;
 }
 
+
+
 #title {
-  color: white;
+  color: #F2EFBD;
   text-shadow: 2px 2px black;
   
 }
@@ -53,3 +65,11 @@ footer {
   text-shadow: 2px 2px black;
   background-color: rgba(0, 255, 255, 0.322);
 }
+
+/* 
+#8C030E
+#D5D96C
+#F2EFBD
+#F2A30F
+#F20C0C
+*/
