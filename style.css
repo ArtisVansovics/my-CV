@@ -40,9 +40,9 @@ p {
   border-radius: 0%;
   margin: 10px;
   max-width: 300px;
-  box-shadow: 
+  box-shadow:
     15px 10px 0px #F2A30F,
-    15px -10px 0px #F2A30F, 
+    15px -10px 0px #F2A30F,
     30px -20px 0px #8C030E,
     30px 0px 0px #8C030E;
 }
@@ -57,7 +57,7 @@ p {
 #title {
   color: #F2EFBD;
   text-shadow: 2px 2px black;
-  
+
 }
 
 #header-text {
@@ -66,7 +66,7 @@ p {
   background-color: rgba(0, 255, 255, 0.322);
 }
 
-/* 
+/*
 #8C030E
 #D5D96C
 #F2EFBD
