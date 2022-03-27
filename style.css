@@ -14,9 +14,9 @@ main {
 }
 
 header {
-  background-color: #D5D96C;
   padding: 20px;
-  background-image: url('images/header-BG-02.jpg');
+  background-color: #D5D96C;
+  background-image: url('images/header-BG.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
