@@ -5,6 +5,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -28,11 +29,11 @@ footer {
   padding: 10px;
 }
 
-h2 {
+.sub-heading {
   color: #F2A30F;
 }
 
-p {
+.text {
   color: #8C030E;
 }
 
@@ -63,18 +64,22 @@ p {
   color: #F2A30F;
 }
 
-
-
 #title {
   color: #F2EFBD;
   text-shadow: 2px 2px black;
-
 }
-
+#sub-title {
+  color: #F2EFBD;
+  text-shadow: 2px 2px black;
+}
 #header-text {
   color: white;
   text-shadow: 2px 2px black;
   background-color: rgba(0, 255, 255, 0.322);
+}
+
+#footer-text {
+  color: #F2A30F;
 }
 
 /*
