@@ -39,7 +39,7 @@ p {
 .img-profile {
   border-radius: 0%;
   margin: 10px;
-  max-width: 300px;
+  max-height: 300px;
   box-shadow:
     15px 10px 0px #F2A30F,
     15px -10px 0px #F2A30F,
