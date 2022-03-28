@@ -11,7 +11,7 @@ body {
 header {
   padding: 20px;
   background-color: #D5D96C;
-  background-image: url('images/header-BG.jpg');
+  background-image: url('images/header_BG.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -58,7 +58,7 @@ footer {
   box-shadow:
     15px 10px 0px #f2a20D,
     15px -10px 0px #F2A30F,
-    30px -20px 0px #8c030E,
+    30px -20px 0px #8C030E,
     30px 0px 0px #8C030E;
 }
 
@@ -75,24 +75,38 @@ footer {
   color: #F2A30F;
 }
 
-
-.navbar-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(140, 3, 14, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
 .navbar-toggler {
   background-color: #F2EFBD;
   border-color: #F2A30F;
 }
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(140, 3, 14, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .footer-text {
   font-size: 14px;
   margin: 5px;
 }
 
+.modal-content {
+  background-color: #F2EFBD;
+}
+
+.img-thumbnail {
+  background-color: #8C030E;
+  opacity: 0.5;
+}
+
+.img-thumbnail:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
 #title {
   color: #F2A30F;
   font-size: 60px;
-  text-shadow: 
-    3px 3px 5px black;
+  text-shadow: 3px 3px 5px black;
   
 }
 #sub-title {

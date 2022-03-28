@@ -36,13 +36,13 @@
     </div>
   </header>
 
-  <nav class="navbar navbar-expand-md py-0">
-    <div class="container-fluid justify-content-start px-sm-3 px-md-4 px-lg-5">
-      <span class="navbar-brand mb-0 h1">Navigation:</span>
+  <nav class="navbar navbar-expand-md py-1">
+    <div class="container-fluid justify-content-between px-sm-3 px-md-4 px-lg-5">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarToggle">
+        <span class="navbar-brand mb-0 h1">Navigation:</span>
         <ul class="navbar-nav me-auto mb-0">
           <li class="nav-item">
             <a class="nav-link" href="#projects">Current Projects</a>
@@ -81,22 +81,22 @@
     <div class="row gx-5">
       <div class="col-md-12 col-lg-6">
         <div class="row gx-5">
-          <div class="col-sm-12" id="about">
-            <h2 class="body-heading">About Me</h2>
+          <div class="col-sm-12">
+            <h2 class="body-heading" id="about">About Me</h2>
             <p class="text">
               Hello! My name is Artis, and this is my first try at a digital portfolio of sorts. I’m passionate about nature and ecology, and right now I am learning how to code. On my free time I enjoy traveling, hiking and taking photos.
             </p>
           </div>
-          <div class="col-sm-12" id="projects">
-            <h2 class="body-heading">Current Projects</h2>
+          <div class="col-sm-12">
+            <h2 class="body-heading" id="projects">Current Projects</h2>
             <p class="text">
               Currently I am learning how to use HTML, CSS and TypeScript for front-end oriented development. I am also getting acquainted with using Git in order to be able to develop source code in a collaborative way.
             </p>
           </div>
         </div>
       </div>
-      <div class="col-md-12 col-lg-6" id="skills">
-        <h2 class="body-heading">My Skills and Experience</h2>
+      <div class="col-md-12 col-lg-6">
+        <h2 class="body-heading" id="skills">My Skills and Experience</h2>
         <p class="text">
           I have studied ecology and water resource management both in the Netherlands and Latvia. I have a lot of experience developing group projects with people who come from different backgrounds and cultures and using online file sharing platforms (such as Dropbox and Google Docs) to collaborate in the development of these projects.
         </p>
@@ -108,12 +108,107 @@
         </p>
       </div>
     </div>
-    <div class="row gx-5">
-      <div class="col" id="gallery">
-        <h2 class="body-heading">Gallery</h2>
+    <div class="row gx-0">
+      <h2 class="body-heading" id="gallery">Gallery</h2>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <img class="img-fluid img-thumbnail" src="images/header_BG_nofilter.jpg" alt="daylillies"  data-bs-toggle="modal" data-bs-target="#modal01"> 
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <img class="img-fluid img-thumbnail" src="images/crocuses.jpg" alt="crocuses"  data-bs-toggle="modal" data-bs-target="#modal02"> 
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <img class="img-fluid img-thumbnail" src="images/mushroom.jpg" alt="mushroom"  data-bs-toggle="modal" data-bs-target="#modal03"> 
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <img class="img-fluid img-thumbnail" src="images/bumblebees.jpg" alt="bumblebees"  data-bs-toggle="modal" data-bs-target="#modal04"> 
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <img class="img-fluid img-thumbnail" src="images/old_riga_sunset.jpg" alt="Old Riga sunset"  data-bs-toggle="modal" data-bs-target="#modal05"> 
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <img class="img-fluid img-thumbnail" src="images/stone_boats_ogre.jpg" alt="stone boats in Ogre"  data-bs-toggle="modal" data-bs-target="#modal06"> 
       </div>
     </div>
   </main>
+
+  <div class="modal" id="modal01">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img class="img-fluid" src="images/header_BG_nofilter.jpg" alt="daylillies">
+        </div>
+        <div class="modal-footer justify-content-between">
+          <h3>Daylilies after rain</h3>
+          <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal02">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img class="img-fluid" src="images/crocuses.jpg" alt="crocuses">
+        </div>
+        <div class="modal-footer justify-content-between">
+          <h3>Crocuses in Spring</h3>
+          <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal03">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img class="img-fluid" src="images/mushroom.jpg" alt="mushroom">
+        </div>
+        <div class="modal-footer justify-content-between">
+          <h3>Mushroom next to a forest road</h3>
+          <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal04">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img class="img-fluid" src="images/bumblebees.jpg" alt="bumblebees">
+        </div>
+        <div class="modal-footer justify-content-between">
+          <h3>Bumblebees collecting honey</h3>
+          <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal05">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img class="img-fluid" src="images/old_riga_sunset.jpg" alt="Old Riga sunset">
+        </div>
+        <div class="modal-footer justify-content-between">
+          <h3>Sunset in Old Riga</h3>
+          <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="modal06">
+    <div class="modal-dialog modal-dialog-centered modal-lg ">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img class="img-fluid" src="images/stone_boats_ogre.jpg" alt="stone boats in Ogre">
+        </div>
+        <div class="modal-footer justify-content-between">
+          <h3>Stone boats in Ogre</h3>
+          <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer class="container-fluid text-center py-1">
     <ul class="nav justify-content-center">
@@ -145,8 +240,6 @@
         </p>
       </div>
     </div>
-     
-    
   </footer>
 
   <script src="pageScript.js"></script> 
