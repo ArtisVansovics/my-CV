@@ -29,12 +29,16 @@ footer {
   padding: 10px;
 }
 
-.sub-heading {
+.body-heading {
   color: #F2A30F;
+  font-size: 28px;
+  text-decoration: underline;
 }
 
 .text {
   color: #8C030E;
+  font-size: 16px;
+  line-height: 1.75;
 }
 
 .icon {
@@ -65,17 +69,17 @@ footer {
 }
 
 #title {
-  color: #F2EFBD;
-  text-shadow: 2px 2px black;
+  color: #F2A30F;
+  font-size: 60px;
+  text-shadow: 
+    3px 3px 5px black;
+  
 }
 #sub-title {
   color: #F2EFBD;
-  text-shadow: 2px 2px black;
-}
-#header-text {
-  color: white;
-  text-shadow: 2px 2px black;
-  background-color: rgba(0, 255, 255, 0.322);
+  font-size: 30px;
+  text-shadow: 3px 3px 4px black;
+  text-transform: uppercase;
 }
 
 #footer-text {
