@@ -49,7 +49,6 @@ footer {
 
 .icon:hover {
   color: #F2A30F;
-  
 }
 
 .img-profile {
@@ -68,6 +67,11 @@ footer {
   color: #F2A30F;
 }
 
+.footer-text {
+  font-size: 14px;
+  margin: 5px;
+}
+
 #title {
   color: #F2A30F;
   font-size: 60px;
@@ -82,9 +86,7 @@ footer {
   text-transform: uppercase;
 }
 
-#footer-text {
-  color: #F2A30F;
-}
+
 
 /*
 #8C030E
